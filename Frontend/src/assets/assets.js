@@ -127,8 +127,6 @@ export const assets = {
     Hero_1,
     Appfood,
     Appdown,
-    // delivery,
-    Derlivery,
     BanerBank_1,
     Baner_1,
     Baner_2,

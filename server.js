@@ -21,7 +21,11 @@ const app = express();
 // Middleware toàn cục
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(cors());
+const corsOptions = {
+    origin: ['https://eatgofood-website.vercel.app/'], // Thay bằng domain thật frontend bạn
+    credentials: true, // Nếu dùng cookie hoặc xác thực
+};
+app.use(cors(corsOptions));
 
 // ✅ Debug middleware - ĐẶT TRƯỚC CÁC ROUTES
 // app.use((req, res, next) => {
@@ -109,8 +113,9 @@ connectDB()
         console.log('✅ Đã kết nối MongoDB');
 
         const PORT = process.env.PORT || 3000;
-        app.listen(PORT, () => {
-            console.log(`🚀 Server đang chạy trên cổng http://localhost:${PORT}`);
+        console.log('🔌 PORT đang chạy:', PORT);
+        app.listen(PORT, '0.0.0.0', () => {
+            console.log(`🚀 Server đang chạy trên cổng http://0.0.0.0:${PORT}`);
         });
     })
     .catch((err) => {

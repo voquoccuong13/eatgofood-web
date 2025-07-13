@@ -92,7 +92,7 @@ import Derset_12 from './Derset_12.jpg';
 import Baner_1 from './Baner_1.avif';
 import Baner_2 from './Baner_2.jpg';
 import BanerBank_1 from './BanerBank_1.avif';
-import delivery from './delivery.avif';
+// import delivery from './delivery.avif';
 import Appdown from './Appdown.jpg';
 import Appfood from './Appfood.jpg';
 // import Hero_1 from "./Hero_1.png";
@@ -127,7 +127,7 @@ export const assets = {
     Hero_1,
     Appfood,
     Appdown,
-    delivery,
+    // delivery,
     Derlivery,
     BanerBank_1,
     Baner_1,

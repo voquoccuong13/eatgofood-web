@@ -106,9 +106,11 @@ import Banner98k from './Banner98k.webp';
 import Banner2 from './Banner2.png';
 import momologo from './momologo.png';
 import vnpay from './vnpay.jpg';
+import delivery from './delivery.avif';
 export const assets = {
     Banner98k,
     vnpay,
+    delivery,
     momologo,
     Banner2,
     Banner1,

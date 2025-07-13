@@ -86,7 +86,7 @@ import Baner_2 from './Baner_2.jpg';
 import BanerBank_1 from './BanerBank_1.avif';
 import Appdown from './Appdown.jpg';
 import Appfood from './Appfood.jpg';
-import Be from './be.jpg';
+// import Be from './be.jpg';
 import shopeefood from './shopeefood.jpg';
 import grabfood from './grabfood.jpg';
 import Combo_1 from './Combo_1.jpg';
@@ -111,7 +111,7 @@ export const assets = {
     Combo_1,
     Combo_2,
     shopeefood,
-    Be,
+    // Be,
     grabfood,
     Hero_2,
     Hero_1,

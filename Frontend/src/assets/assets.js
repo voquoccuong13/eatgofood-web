@@ -10,7 +10,6 @@ import Background from './Background.jpg';
 import favicon from './favicon.png';
 import add_icon_green from './add_icon_green.png';
 import add_icon_white from './add_icon_white.png';
-import Derlivery from './Delivery.avif';
 //
 
 import remove_icon_red from './remove_icon_red.png';
@@ -92,12 +91,8 @@ import Derset_12 from './Derset_12.jpg';
 import Baner_1 from './Baner_1.avif';
 import Baner_2 from './Baner_2.jpg';
 import BanerBank_1 from './BanerBank_1.avif';
-// import delivery from './delivery.avif';
 import Appdown from './Appdown.jpg';
 import Appfood from './Appfood.jpg';
-// import Hero_1 from "./Hero_1.png";
-// import Hero_2 from "./Hero_2.jpg";
-// import grabfood from "./grabfood.svg";
 import Be from './be.jpg';
 import shopeefood from './shopeefood.jpg';
 import grabfood from './grabfood.jpg';

@@ -27,7 +27,7 @@ import Burger_9 from './Burger_9.jpg';
 import Burger_10 from './Burger_10.jpg';
 import Burger_11 from './Burger_11.jpg';
 import Burger_12 from './Burger_12.jpg';
-import Burger_13 from './Burger_13.jpg';
+
 //
 import Pizza_1 from './Pizza_1.jpg';
 import Pizza_2 from './Pizza_2.jpg';
@@ -41,14 +41,7 @@ import Pizza_9 from './Pizza_9.jpg';
 import Pizza_10 from './Pizza_10.jpg';
 import Pizza_11 from './Pizza_11.jpg';
 import Pizza_12 from './Pizza_12.jpg';
-import Pizza_13 from './Pizza_13.jpg';
-import Pizza_14 from './Pizza_14.jpg';
-import Pizza_15 from './Pizza_15.jpg';
-import Pizza_16 from './Pizza_16.jpg';
-import Pizza_17 from './Pizza_17.jpg';
-import Pizza_18 from './Pizza_18.jpg';
-import Pizza_19 from './Pizza_19.jpg';
-import Pizza_20 from './Pizza_20.jpg';
+
 //
 import Drink_1 from './Drink_1.jpg';
 import Drink_2 from './Drink_2.jpg';
@@ -106,11 +99,11 @@ import Banner98k from './Banner98k.webp';
 import Banner2 from './Banner2.png';
 import momologo from './momologo.png';
 import vnpay from './vnpay.jpg';
-import delivery from './delivery.avif';
+// import delivery from './delivery.avif';
 export const assets = {
     Banner98k,
     vnpay,
-    delivery,
+    // delivery,
     momologo,
     Banner2,
     Banner1,
